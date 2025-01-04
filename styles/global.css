@@ -32,6 +32,9 @@ body {
     background-color: var(--bg-color);
 }
 
+img {
+    max-width: 100%;
+}
 .container {
     max-width: 1280px;
     padding-inline: 32px;
@@ -51,11 +54,6 @@ a:hover {
     color: var(--brand-color-light);
 }
 
-/* utility first */
-.grid {
-    display: grid;
-}
-
-.grid-flow-col {
-    grid-auto-flow: column;
+main {
+    margin-top: 40px;
 }
